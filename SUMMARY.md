@@ -246,13 +246,16 @@
       * [tronGetAddress](connect-to-hardware/hardware-sdk/tron/trongetaddress.md)
       * [tronSignMessage](connect-to-hardware/hardware-sdk/tron/tronsignmessage.md)
       * [tronSignTransaction](connect-to-hardware/hardware-sdk/tron/tronsigntransaction.md)
-* Air-Gap
+* Legacy Guides
+  * [Migrate Bridge to WebUSB](connect-to-hardware/legacy-guides/migrate-bridge-to-webusb.md)
+  * [Migrate Bridge to Common Connect WebUSB](connect-to-hardware/legacy-guides/migrate-bridge-to-common-connect-webusb.md)
+* Air-Gap(QR-Code)
   * [Air-Gap Overview](connect-to-hardware/air-gap/air-gap.md)
   * [Quick Start](connect-to-hardware/air-gap/quick-start.md)
     * [EVM](connect-to-hardware/air-gap/quick-start/evm.md)
     * [BTC](connect-to-hardware/air-gap/quick-start/btc.md)
     * [Solana](connect-to-hardware/air-gap/quick-start/solana.md)
-  * [TRON](connect-to-hardware/air-gap/quick-start/tron.md)
+    * [TRON](connect-to-hardware/air-gap/quick-start/tron.md)
   * [Reference](connect-to-hardware/air-gap/reference/README.md)
     * [Basic API](connect-to-hardware/air-gap/reference/basic-api/README.md)
       * [CryptoCoinInfo](connect-to-hardware/air-gap/reference/basic-api/cryptocoininfo.md)
