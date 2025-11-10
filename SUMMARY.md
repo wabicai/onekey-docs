@@ -98,7 +98,6 @@
   * [Use deeplinks](connect-to-software/guides/use-deeplinks.md)
   * [Batch requests](connect-to-software/guides/batch-requests.md)
   * [Production readiness](connect-to-software/guides/production-readiness.md)
-  * [Web app integration (deeplinks)](connect-to-software/guides/web-app-integration-developer.md)
 
 ## Hardware SDK
 

@@ -6,6 +6,9 @@ description: Open OneKey with deeplinks across platforms using a WalletConnect U
 
 This guide shows how to open the OneKey app from mobile web/WebViews using deeplinks that carry a WalletConnect URI. It follows a minimal, implementation‑agnostic pattern.
 
+> Prerequisites: Obtain a WalletConnect v2 Cloud `projectId` for your app. Do not commit secrets. Prefer environment variables (for example: `NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID` or `VITE_WC_PROJECT_ID`), and replace the placeholder `YOUR_PROJECT_ID` in the snippets accordingly.
+
+
 - Where: mobile browsers, WebViews, React Native/Expo, Telegram Mini Apps, etc.
 - Always keep a fallback (Universal Link or QR)
 
@@ -158,5 +161,4 @@ async function connectWithOneKey() {
 
 ## Related
 
-- OneKey Provider (EIP‑1193): [JavaScript (EIP‑1193)](../connect-to-software/webapp-connect-onekey/README.md)
-- Web app integration (deeplinks): [Guide](web-app-integration-developer.md)
+- OneKey Provider (EIP‑1193): [webapp-connect-onekey](../connect-to-software/webapp-connect-onekey/README.md)
