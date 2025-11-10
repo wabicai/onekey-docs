@@ -2,10 +2,10 @@
 
 * [Introduction](README.md)
 
-## Connect to Software (dApp)
+## dApp Integration
 
 * [Overview](connect-to-software/README.md)
-* [JavaScript (EIP-1193)](connect-to-software/webapp-connect-onekey/README.md)
+* [Web (Injected Provider)](connect-to-software/webapp-connect-onekey/README.md)
   * [ETH](connect-to-software/webapp-connect-onekey/eth/README.md)
     * [Provider API](connect-to-software/webapp-connect-onekey/eth/provider-api.md)
     * [RPC API](connect-to-software/webapp-connect-onekey/eth/rpc-api.md)
@@ -81,13 +81,13 @@
     * [Establishing a Connection](connect-to-software/webapp-connect-onekey/solana/establishing-a-connection.md)
     * [Sending a Transaction](connect-to-software/webapp-connect-onekey/solana/sending-a-transaction.md)
     * [Signing a Message](connect-to-software/webapp-connect-onekey/solana/signing-a-message.md)
-  * [React + wagmi](connect-to-software/webapp-connect-onekey/wagmi.md)
-  * [Compatible with MetaMask](connect-to-software/compatible-with-metamask.md)
-  * [Support Wallet Kits](connect-to-software/support-wallet-kit/README.md)
-    * [Web3 Onboard](connect-to-software/support-wallet-kit/web3-onboard.md)
-    * [RainbowKit](connect-to-software/support-wallet-kit/rainbowkit.md)
-    * [Web3Modal](connect-to-software/support-wallet-kit/web3modal.md)
-    * [Aptos Wallet Adapter](connect-to-software/support-wallet-kit/aptos-wallet-adapter.md)
+* [React + wagmi](connect-to-software/webapp-connect-onekey/wagmi.md)
+* [Compatible with MetaMask](connect-to-software/compatible-with-metamask.md)
+* [Support Wallet Kits](connect-to-software/support-wallet-kit/README.md)
+  * [Web3 Onboard](connect-to-software/support-wallet-kit/web3-onboard.md)
+  * [RainbowKit](connect-to-software/support-wallet-kit/rainbowkit.md)
+  * [Web3Modal](connect-to-software/support-wallet-kit/web3modal.md)
+  * [Aptos Wallet Adapter](connect-to-software/support-wallet-kit/aptos-wallet-adapter.md)
 
 ## Guides (dApp)
 
@@ -101,7 +101,7 @@
 * [Production readiness](guides/production-readiness.md)
 * [Web app integration (deeplinks)](guides/web-app-integration-developer.md)
 
-## Connect to Hardware (SDK)
+## Hardware SDK
 
 * [Overview](connect-to-hardware/README.md)
 * [Quick Start](connect-to-hardware/quick-start.md)
@@ -253,6 +253,16 @@
     * [tronGetAddress](connect-to-hardware/hardware-sdk/tron/trongetaddress.md)
     * [tronSignMessage](connect-to-hardware/hardware-sdk/tron/tronsignmessage.md)
     * [tronSignTransaction](connect-to-hardware/hardware-sdk/tron/tronsigntransaction.md)
+
+### Air-Gap
+
+* [Air-Gap Overview](connect-to-hardware/air-gap/air-gap.md)
+* [Quick Start](connect-to-hardware/air-gap/quick-start.md)
+  * [EVM](connect-to-hardware/air-gap/quick-start/evm.md)
+  * [BTC](connect-to-hardware/air-gap/quick-start/btc.md)
+  * [Solana](connect-to-hardware/air-gap/quick-start/solana.md)
+  * [TRON](connect-to-hardware/air-gap/quick-start/tron.md)
+* [Reference](connect-to-hardware/air-gap/reference/README.md)
 
 ---
 

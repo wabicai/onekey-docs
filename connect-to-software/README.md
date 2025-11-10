@@ -1,10 +1,14 @@
-# Connect to OneKey
+---
+slug: /dapp
+---
+
+# dApp Integration (Injected Provider)
 
 This section focuses on connecting to OneKey using the injected EIP‑1193 provider. No extra SDK is required for the web — detect and call the provider directly.
 
 ## Recommended
 
-- JavaScript (EIP‑1193, pure web):
+- Web (Injected Provider):
   - Prefer `window.$onekey.ethereum`; fall back to `window.ethereum` as needed
   - Multi‑chain; see per‑chain sections for signing/transactions/events (ETH, BTC, Solana, NEAR, Nostr, WebLN)
 
@@ -21,4 +25,4 @@ const [account] = await provider.request({ method: 'eth_requestAccounts' });
 console.log('Account:', account);
 ```
 
-See [JavaScript (EIP‑1193)](webapp-connect-onekey/README.md) for details.
+See [Web (Injected Provider)](webapp-connect-onekey/README.md) for details.

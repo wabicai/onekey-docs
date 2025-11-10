@@ -1,5 +1,6 @@
 ---
 description: WebLN integration via OneKey — enable, getInfo, makeInvoice, sendPayment, sign/verify message
+slug: /dapp/chains/webln
 ---
 
 # WebLN

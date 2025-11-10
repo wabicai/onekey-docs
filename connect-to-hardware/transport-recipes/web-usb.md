@@ -1,3 +1,7 @@
+---
+slug: /hardware/transport/webusb
+---
+
 # WebUSB Connection Guide
 
 {% hint style="info" %}

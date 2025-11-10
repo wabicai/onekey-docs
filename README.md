@@ -4,18 +4,18 @@ Unified documentation for integrating OneKey into your apps — covering both dA
 
 ## Quick Links
 
-- Connect to Software (dApp provider)
-  - Overview: `connect-to-software/README.md`
-  - JavaScript (EIP-1193): `connect-to-software/webapp-connect-onekey/README.md`
-  - EVM Provider API: `connect-to-software/webapp-connect-onekey/eth/provider-api.md`
-  - BTC / Solana / NEAR / Nostr / WebLN: see the chain sections under `connect-to-software/webapp-connect-onekey/`
-  - Guides (auth, networks, tx, contracts, production): `guides/developer-guide.md`
+- dApp Integration
+  - Overview: [dApp Integration (Injected Provider)](connect-to-software/README.md)
+  - Web (Injected Provider): [Web dApp](connect-to-software/webapp-connect-onekey/README.md)
+  - EVM Provider API: [ETH Provider API](connect-to-software/webapp-connect-onekey/eth/provider-api.md)
+  - Chains: [BTC](connect-to-software/webapp-connect-onekey/btc/README.md), [Solana](connect-to-software/webapp-connect-onekey/solana/README.md), [NEAR](connect-to-software/webapp-connect-onekey/near/README.md), [Nostr](connect-to-software/webapp-connect-onekey/nostr/README.md), [WebLN](connect-to-software/webapp-connect-onekey/webln/README.md)
+  - Guides: [Developer Guides](guides/developer-guide.md)
 
-- Connect to Hardware (Hardware SDK)
-  - Overview: `connect-to-hardware/README.md`
-  - Quick Start: `connect-to-hardware/quick-start.md`
-  - Transports (WebUSB / BLE / Native): `connect-to-hardware/transport-recipes/web-usb.md`, `connect-to-hardware/transport-recipes/common-connect-1/README.md`
-  - Per-chain API references: `connect-to-hardware/hardware-sdk/README.md`
+- Hardware SDK
+  - Overview: [Hardware SDK Overview](connect-to-hardware/README.md)
+  - Quick Start: [Quick Start](connect-to-hardware/quick-start.md)
+  - Transports: [WebUSB](connect-to-hardware/transport-recipes/web-usb.md), [Native BLE](connect-to-hardware/transport-recipes/common-connect-1/README.md), [React Native BLE](connect-to-hardware/transport-recipes/react-native-ble.md)
+  - API References: [Per-chain and common APIs](connect-to-hardware/hardware-sdk/README.md)
 
 ## What’s inside
 

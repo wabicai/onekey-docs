@@ -1,5 +1,6 @@
 ---
 description: Ethereum & EVM integration with OneKey’s injected EIP‑1193 provider
+slug: /dapp/chains/eth
 ---
 
 # ETH / EVM

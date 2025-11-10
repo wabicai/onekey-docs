@@ -1,3 +1,7 @@
+---
+slug: /hardware
+---
+
 # Introduction
 
 Developer‑focused documentation for integrating OneKey hardware in Web and Native apps. Start with Quick Start (Web), then pick your transport guide, wire events, and call chain APIs.

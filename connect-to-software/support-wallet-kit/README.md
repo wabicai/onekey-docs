@@ -1,5 +1,6 @@
 ---
 description: Wallet aggregator GUIs and SDKs that support OneKey
+slug: /dapp/wallet-kits
 ---
 
 # Support Wallet Kits
@@ -11,4 +12,4 @@ If your project already uses a wallet aggregator/kit, you can keep using it and 
 - [Web3Modal (EVM)](web3modal.md)
 - [Aptos Wallet Adapter (Aptos)](aptos-wallet-adapter.md)
 
-For pure web without aggregators, see: [JavaScript (EIP‑1193)](../webapp-connect-onekey/README.md).
+For pure web without aggregators, see: [Web (Injected Provider)](../webapp-connect-onekey/README.md).

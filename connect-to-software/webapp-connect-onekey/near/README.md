@@ -1,5 +1,6 @@
 ---
 description: NEAR integration via OneKey provider — detect, connect, send transactions, and sign
+slug: /dapp/chains/near
 ---
 
 # NEAR

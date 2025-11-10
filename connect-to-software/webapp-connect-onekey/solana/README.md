@@ -1,5 +1,6 @@
 ---
 description: Solana integration via OneKey provider — detect, connect, send transactions, and sign messages
+slug: /dapp/chains/solana
 ---
 
 # Solana

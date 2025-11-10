@@ -1,5 +1,6 @@
 ---
 description: Nostr integration via OneKey provider — getPublicKey, signEvent, signSchnorr, and more
+slug: /dapp/chains/nostr
 ---
 
 # Nostr

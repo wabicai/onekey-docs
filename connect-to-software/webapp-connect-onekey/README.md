@@ -1,4 +1,8 @@
-# JavaScript (EIP‑1193)
+---
+slug: /dapp/web
+---
+
+# Web (Injected Provider)
 
 Connect to OneKey via the injected EIP‑1193 provider. No extra SDK is required in the browser.
 

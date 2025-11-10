@@ -1,5 +1,6 @@
 ---
 description: Make dApps compatible with MetaMask while prioritizing OneKey (EIP‑1193/EIP‑6963)
+slug: /dapp/compatibility/metamask
 ---
 
 # Compatible with MetaMask

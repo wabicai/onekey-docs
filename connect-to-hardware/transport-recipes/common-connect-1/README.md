@@ -1,3 +1,7 @@
+---
+slug: /hardware/transport/native-ble
+---
+
 # Native Bluetooth (low-level adapter and protocol)
 
 On iOS/Android/Flutter native hosts, we recommend using the `lowlevel` adapter of `@onekeyfe/hd-common-connect-sdk` so you can reuse the exact same SDK API as the Web path. JS stays identical; only the transport adapter forwards calls to the native layer for BLE/USB I/O.

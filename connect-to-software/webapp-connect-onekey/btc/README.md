@@ -1,5 +1,6 @@
 ---
 description: Bitcoin integration via OneKey’s injected BTC provider (window.$onekey.btc / window.unisat)
+slug: /dapp/chains/btc
 ---
 
 # BTC

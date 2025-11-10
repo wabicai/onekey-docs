@@ -1,3 +1,7 @@
+---
+slug: /hardware/sdk
+---
+
 # Hardware SDK API References
 
 Use this page as a concise index to jump into each module. Links point to the canonical docs under this folder.

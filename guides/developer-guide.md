@@ -1,5 +1,6 @@
 ---
 description: Guides index for OneKey — authentication, networks, transactions, contracts, deeplinks, batching, production
+slug: /dapp/guides
 ---
 
 # Guides index
