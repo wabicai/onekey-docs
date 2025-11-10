@@ -35,4 +35,4 @@ const info = await provider.getInfo()
 ## Mobile & deeplinks
 
 - Use OneKey deeplinks to bridge from mobile H5/WebViews
-- See [Use deeplinks](../../../guides/use-deeplinks.md)
+- See [Use deeplinks](../../guides/use-deeplinks.md)

@@ -1,28 +1,43 @@
 # Introduction
 
-Unified documentation for integrating OneKey into your apps — covering both dApp (software wallet provider) and Hardware SDK integrations. Use the following entry points based on your scenario.
+OneKey documentation unifies three integration paths. Choose based on your app and platform:
 
-## Quick Links
+- dApp Integration (software wallet, injected provider)
+- Hardware SDK (hardware wallet over USB/BLE/React Native)
+- Air-Gap (hardware wallet via QR, offline signing)
 
-- dApp Integration
-  - Overview: [dApp Integration (Injected Provider)](connect-to-software/README.md)
-  - Web (Injected Provider): [Web dApp](connect-to-software/webapp-connect-onekey/README.md)
-  - EVM Provider API: [ETH Provider API](connect-to-software/webapp-connect-onekey/eth/provider-api.md)
-  - Chains: [BTC](connect-to-software/webapp-connect-onekey/btc/README.md), [Solana](connect-to-software/webapp-connect-onekey/solana/README.md), [NEAR](connect-to-software/webapp-connect-onekey/near/README.md), [Nostr](connect-to-software/webapp-connect-onekey/nostr/README.md), [WebLN](connect-to-software/webapp-connect-onekey/webln/README.md)
-  - Guides: [Developer Guides](guides/developer-guide.md)
+## Start Here
 
-- Hardware SDK
-  - Overview: [Hardware SDK Overview](connect-to-hardware/README.md)
-  - Quick Start: [Quick Start](connect-to-hardware/quick-start.md)
-  - Transports: [WebUSB](connect-to-hardware/transport-recipes/web-usb.md), [Native BLE](connect-to-hardware/transport-recipes/common-connect-1/README.md), [React Native BLE](connect-to-hardware/transport-recipes/react-native-ble.md)
-  - API References: [Per-chain and common APIs](connect-to-hardware/hardware-sdk/README.md)
+- dApp Integration (software wallet)
+  - Get started: [Overview](connect-to-software/README.md), [Web (Injected Provider)](connect-to-software/webapp-connect-onekey/README.md)
+  - Next: [Wallet Kits](connect-to-software/support-wallet-kit/README.md), [Developer Guides](connect-to-software/guides/developer-guide.md)
+  - Tip: Explore per‑chain docs (ETH, BTC, Solana, NEAR, Nostr, WebLN) from the sidebar under “Web (Injected Provider) → Chains”.
 
-## What’s inside
+- Hardware SDK (hardware wallet over USB/BLE/React Native)
+  - Get started: [Overview](connect-to-hardware/README.md), [Quick Start](connect-to-hardware/quick-start.md)
+  - Next: Transports — [WebUSB](connect-to-hardware/transport-recipes/web-usb.md), [Native BLE](connect-to-hardware/transport-recipes/common-connect-1/README.md), [React Native BLE](connect-to-hardware/transport-recipes/react-native-ble.md); [API References](connect-to-hardware/hardware-sdk/README.md)
+  - Playground: Expo Playground → https://hardware-example.onekey.so/
 
-- A dApp-focused section exposing the injected provider and per‑chain provider APIs (EVM, BTC, Solana, NEAR, Nostr, WebLN), plus practical guides and production tips.
-- A hardware-focused section with Quick Start, transport recipes (WebUSB and BLE/Native), and comprehensive per‑chain signing APIs for the OneKey hardware wallet.
+- Air-Gap (hardware wallet via QR, offline)
+  - Get started: [Overview](connect-to-hardware/air-gap/air-gap.md), [Quick Start](connect-to-hardware/air-gap/quick-start.md)
+  - Next: Reference — [Index](connect-to-hardware/air-gap/reference/README.md)
+  - Note: Air‑Gap is offline by design (QR). Use the RN demo or your own app’s QR flow.
+
+
+
+## Tips
+
+- Detection: Prefer OneKey’s dedicated injections (e.g. `window.$onekey.ethereum`) before falling back to generic providers
+- Mobile/WebViews: Use deeplinks or WalletConnect with a universal link fallback
+- Emulator: For Hardware SDK development, use the Expo Playground and the emulator device → https://hardware-example.onekey.so/
 
 ## Support
 
-- Help Center: https://help.onekey.so
-- OneKey website: https://onekey.so/
+- Help Center: [Help Center](https://help.onekey.so)
+- OneKey App Web: [OneKey](https://onekey.so/)
+
+## Related Repositories
+
+- OneKey Hardware JS SDK: [hardware-js-sdk](https://github.com/OneKeyHQ/hardware-js-sdk)
+- OneKey App Monorepo: [app-monorepo](https://github.com/OneKeyHQ/app-monorepo)
+- OneKey Firmware: [firmware](https://github.com/OneKeyHQ/firmware)

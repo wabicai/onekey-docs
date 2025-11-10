@@ -19,7 +19,7 @@ For Web developers getting started quickly: a compact path from init to first ca
 | iOS (Native)         | BLE        | [@onekeyfe/hd-common-connect-sdk](https://github.com/OneKeyHQ/hardware-js-sdk/tree/onekey/packages/hd-common-connect-sdk) | [iOS BLE](transport-recipes/common-connect-1/ios-ble.md)  |
 | Flutter              | BLE        | [@onekeyfe/hd-common-connect-sdk](https://github.com/OneKeyHQ/hardware-js-sdk/tree/onekey/packages/hd-common-connect-sdk) | [Flutter BLE](transport-recipes/common-connect-1/flutter-ble.md) |
 
-- Playground: [hardware-example.onekey.so](https://hardware-example.onekey.so/) — Try WebUSB connection, call sample APIs, and test with the built‑in emulator device.
+- Try in Playground: [hardware-example.onekey.so](https://hardware-example.onekey.so/) — Try WebUSB connection, call sample APIs, and test with the built‑in emulator device.
   - Features:
     - Live hardware wallet simulation
     - Real-time API testing

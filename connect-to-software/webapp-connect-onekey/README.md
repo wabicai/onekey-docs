@@ -63,7 +63,7 @@ await provider.request({ method: 'eth_signTypedData_v4', params: [account, JSON.
 
 - Custom scheme: `onekey-wallet://wc?uri={encodeURIComponent(wcUri)}`
 - Universal link (fallback): `https://app.onekey.so/wc/connect/wc?uri={encodeURIComponent(wcUri)}`
-- See [Use deeplinks](../../guides/use-deeplinks.md)
+- See [Use deeplinks](../guides/use-deeplinks.md)
 
 ## Per‑chain docs
 

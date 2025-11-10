@@ -37,4 +37,4 @@ console.log(publicKey.toString())
 ## Mobile & deeplinks
 
 - Use OneKey deeplinks with a WalletConnect URI for mobile handoff
-- See [Use deeplinks](../../../guides/use-deeplinks.md)
+- See [Use deeplinks](../../guides/use-deeplinks.md)

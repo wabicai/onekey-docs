@@ -39,6 +39,6 @@ const [account] = await provider.request({ method: 'eth_requestAccounts' })
 ## Mobile & deeplinks
 
 - Use OneKey deeplinks that carry a WalletConnect URI
-- See [Use deeplinks](../../../guides/use-deeplinks.md)
+- See [Use deeplinks](../../guides/use-deeplinks.md)
 
 See also [JavaScript (EIP‑1193)](../README.md) for an extended introduction.

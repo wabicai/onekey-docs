@@ -10,7 +10,11 @@ Minimal, accurate overview of building a “device stays offline” signing loop
 
 See Quick Start and API Reference below for concrete types and examples.
 
-- Demo (React Native) → [GitHub Air‑Gap Demo](https://github.com/OneKeyHQ/hardware-js-sdk/tree/onekey/packages/connect-examples/react-native-demo/air-gap)
+## Examples & Playground
+
+- Quick Start: [Overview](quick-start.md), per‑chain: [EVM](quick-start/evm.md), [BTC](quick-start/btc.md), [Solana](quick-start/solana.md), [TRON](quick-start/tron.md)
+- React Native demo: [GitHub Air‑Gap Demo](https://github.com/OneKeyHQ/hardware-js-sdk/tree/onekey/packages/connect-examples/react-native-demo/air-gap)
+  - Note: Air‑Gap is offline by design; there is no online browser playground. Use the RN demo and your own app flow for QR encode/decode.
 
 
 ## Where to Look in the Demo
