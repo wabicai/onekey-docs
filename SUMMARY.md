@@ -84,6 +84,10 @@
       * [Signing a Message](connect-to-software/webapp-connect-onekey/solana/signing-a-message.md)
   * Tools & Kits
     * [Wallet Kits](connect-to-software/support-wallet-kit/README.md)
+      * [Web3 Onboard](connect-to-software/support-wallet-kit/web3-onboard.md)
+      * [RainbowKit](connect-to-software/support-wallet-kit/rainbowkit.md)
+      * [Web3Modal](connect-to-software/support-wallet-kit/web3modal.md)
+      * [Aptos Wallet Adapter](connect-to-software/support-wallet-kit/aptos-wallet-adapter.md)
     * [React + wagmi](connect-to-software/webapp-connect-onekey/wagmi.md)
     * [Compatible with MetaMask](connect-to-software/compatible-with-metamask.md)
 * [Developer Guides](connect-to-software/guides/developer-guide.md)
