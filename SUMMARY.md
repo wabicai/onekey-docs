@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-## Hardware SDK
+## 📟 Connect to Hardware
 
 * [Overview](connect-to-hardware/README.md)
 * [Quick Start](connect-to-hardware/quick-start.md)
