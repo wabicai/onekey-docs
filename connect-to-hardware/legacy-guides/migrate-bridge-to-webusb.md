@@ -13,7 +13,7 @@ This short guide helps you replace the legacy Bridge transport with native WebUS
 
 ---
 
-## What changes (at a glance)
+## What Changed (At a Glance)
 
 - Initialize the SDK with `env: 'webusb'` 
   - (Bridge (env: `web`) → WebUSB (env: `webusb`).)
@@ -24,7 +24,7 @@ This short guide helps you replace the legacy Bridge transport with native WebUS
 
 ---
 
-## Initialize (use hd-web-sdk and latest connectSrc)
+## Initialize (hd-web-sdk + WebUSB)
 
 ```ts
 import HdWebSdk from '@onekeyfe/hd-web-sdk';
@@ -43,19 +43,19 @@ await HardwareSDK.init({
 
 ---
 
-## Authorize (WebUSB chooser with OneKey filter)
+## Authorization (WebUSB Picker + Official Filter)
 
 ```ts
 import { ONEKEY_WEBUSB_FILTER } from '@onekeyfe/hd-shared';
 
-// IMPORTANT: Must be triggered by a user gesture (e.g., button click)
+// Important: must be triggered by a user gesture (e.g., button click)
 // Chrome security policy disallows automatic USB device discovery before permission.
 await navigator.usb.requestDevice({ filters: ONEKEY_WEBUSB_FILTER });
 ```
 
 ---
 
-## Discover and run your first call
+## Enumerate Devices and First Call
 
 ```ts
 // 1) Enumerate
@@ -84,7 +84,7 @@ if (r.success) {
 
 ---
 
-## Cleanup checklist
+## Cleanup and Checklist
 
 - Remove Bridge‑specific checks/CTAs (e.g., `checkBridgeStatus()`)
 - Keep latest `connectSrc` in hd-web-sdk init (the iframe host)

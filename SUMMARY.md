@@ -152,8 +152,8 @@
       * [tronSignMessage](connect-to-hardware/hardware-sdk/tron/tronsignmessage.md)
       * [tronSignTransaction](connect-to-hardware/hardware-sdk/tron/tronsigntransaction.md)
 * Legacy Guides
-  * [Migrate Bridge to WebUSB](connect-to-hardware/legacy-guides/migrate-bridge-to-webusb.md)
-  * [Migrate Bridge to Common Connect WebUSB](connect-to-hardware/legacy-guides/migrate-bridge-to-common-connect-webusb.md)
+  * [Migrate Bridge To WebUSB](connect-to-hardware/legacy-guides/migrate-bridge-to-webusb.md)
+  * [Migrate Bridge To Common Connect WebUSB](connect-to-hardware/legacy-guides/migrate-bridge-to-common-connect-webusb.md)
 * Air-Gap(QR-Code)
   * [Air-Gap Overview](connect-to-hardware/air-gap/air-gap.md)
   * [Quick Start](connect-to-hardware/air-gap/quick-start.md)
@@ -172,7 +172,7 @@
       * [ETHSignature](connect-to-hardware/air-gap/reference/ethereum-and-evm/ethsignature.md)
     * [Solana](connect-to-hardware/air-gap/reference/solana/README.md)
 
-## dApp Integration
+## 🔮 Connect To Software
 
 * [Overview](connect-to-software/README.md)
 * [Web (Injected Provider)](connect-to-software/webapp-connect-onekey/README.md)
