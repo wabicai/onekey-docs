@@ -1,0 +1,154 @@
+---
+title: Getting Started
+description: Connect to Aptos using OneKey's Petra-compatible provider
+---
+
+
+# Getting Started
+
+Learn how to detect, connect, and interact with Aptos using OneKey's provider.
+
+
+> OneKey's Aptos provider is fully compatible with the Petra wallet interface and Aptos Wallet Standard.
+
+
+
+---
+
+## Provider Detection
+
+```typescript
+// Detect OneKey Aptos provider
+const provider = window.$onekey?.aptos
+
+if (!provider) {
+  throw new Error('OneKey Aptos provider not detected')
+}
+
+// Check provider info
+console.log('Provider:', provider.isOneKey ? 'OneKey' : 'Unknown')
+```
+
+---
+
+## Connect Wallet
+
+```typescript
+// Connect and get account info
+const response = await provider.connect()
+
+console.log({
+  address: response.address,     // Account address
+  publicKey: response.publicKey, // Public key
+})
+```
+
+---
+
+## Check Connection Status
+
+```typescript
+const isConnected = await provider.isConnected()
+console.log('Connected:', isConnected)
+```
+
+---
+
+## Get Current Account
+
+```typescript
+const account = await provider.account()
+
+console.log({
+  address: account.address,
+  publicKey: account.publicKey,
+})
+```
+
+---
+
+## Get Network Info
+
+```typescript
+const network = await provider.network()
+
+console.log('Network:', network) // 'mainnet', 'testnet', 'devnet'
+
+// For full network info
+const networkInfo = await provider.getNetwork()
+console.log({
+  name: networkInfo.name,
+  chainId: networkInfo.chainId,
+  url: networkInfo.url,
+})
+```
+
+---
+
+## Disconnect
+
+```typescript
+await provider.disconnect()
+```
+
+---
+
+## Event Listeners
+
+### Listen for Account Changes
+
+```typescript
+provider.onAccountChange((newAccount) => {
+  if (newAccount) {
+    console.log('Account changed:', newAccount.address)
+  } else {
+    console.log('Wallet disconnected')
+  }
+})
+```
+
+### Listen for Network Changes
+
+```typescript
+provider.onNetworkChange((network) => {
+  console.log('Network changed:', network)
+})
+```
+
+---
+
+## Migration from Petra
+
+OneKey's Aptos provider is Petra-compatible. Update your provider detection:
+
+```typescript
+// Before (Petra only)
+const provider = window.petra
+
+// After (OneKey with Petra fallback)
+const provider = window.$onekey?.aptos || window.petra
+```
+
+---
+
+## Using with Aptos Wallet Adapter
+
+For React applications, use the official Aptos Wallet Adapter:
+
+```bash
+npm install @aptos-labs/wallet-adapter-react
+```
+
+```tsx
+
+function App() {
+  return (
+    <AptosWalletAdapterProvider>
+      <YourApp />
+    </AptosWalletAdapterProvider>
+  )
+}
+```
+
+OneKey is automatically detected by the Aptos Wallet Adapter.
+
